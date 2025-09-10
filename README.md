@@ -7,3 +7,5 @@ hey Isha Sudarshini this side. I am doing the test train split and will upload i
 hi guys if u share code soo i can include in ppt soo share it 
 
 Isha this side. I was working on the train test split and to be honest, I dont see what type of ml task we can do with this dataset. The username and user id columns dont make sense. The only thing maybe we can go forward with is sentiment analysis. Should i do that? Since we need to do model training too. If you guys can see anything else that we can do, please suggest.
+
+Aswini here, i will share the code sudharshini, i think we can go with sentiment analysis
