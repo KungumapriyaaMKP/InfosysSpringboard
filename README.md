@@ -11,3 +11,5 @@ Isha this side. I was working on the train test split and to be honest, I dont s
 Aswini here, i will share the code sudharshini, i think we can go with sentiment analysis
 
 Isha - uploaded data splitting and training
+
+Aswini here, ok Isha, varishtha make the ppt
