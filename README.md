@@ -11,6 +11,7 @@ anything else that we can do, please suggest.
 
 Aswini here, i will share the code sudharshini, i think we can go with sentiment analysis
 
+
 Isha - uploaded data splitting and training
 
 Aswini here, ok Isha, varishtha make the ppt
@@ -18,3 +19,4 @@ Aswini here, ok Isha, varishtha make the ppt
 Varshitha here,I have uploaded the ppt see it once guys.
 
 Aswini- ya the ppt was good Varshitha.
+Tq ashwini
