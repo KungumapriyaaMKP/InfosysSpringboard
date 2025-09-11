@@ -16,3 +16,5 @@ Isha - uploaded data splitting and training
 Aswini here, ok Isha, varishtha make the ppt
 
 Varshitha here,I have uploaded the ppt see it once guys.
+
+Aswini- ya the ppt was good Varshitha.
