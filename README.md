@@ -6,10 +6,13 @@ hi guys! i should prepare the ppt.soo please share the code
 hey Isha Sudarshini this side. I am doing the test train split and will upload it in a while. Aswini, could you also upload the code used for data cleaning? It might be helpful for the ppt and to explain the project tomorrow. 
 hi guys if u share code soo i can include in ppt soo share it 
 
-Isha this side. I was working on the train test split and to be honest, I dont see what type of ml task we can do with this dataset. The username and user id columns dont make sense. The only thing maybe we can go forward with is sentiment analysis. Should i do that? Since we need to do model training too. If you guys can see anything else that we can do, please suggest.
+Isha this side. I was working on the train test split and to be honest, I dont see what type of ml task we can do with this dataset. The username and user id columns dont make sense. The only thing maybe we can go forward with is sentiment analysis. Should i do that? Since we need to do model training too. If you guys can see 
+anything else that we can do, please suggest.
 
 Aswini here, i will share the code sudharshini, i think we can go with sentiment analysis
 
 Isha - uploaded data splitting and training
 
 Aswini here, ok Isha, varishtha make the ppt
+
+Varshitha here,I have uploaded the ppt see it once guys.
