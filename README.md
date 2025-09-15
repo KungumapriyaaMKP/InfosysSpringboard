@@ -26,3 +26,7 @@ Tq ashwini
 Guys, this is Kungumapriyaa , I went for an Industrial Visit hope Sir has informed , thats why I could'nt help you , how everything went?
 
 varshitha here, everything went smoothly and good 
+
+
+What happened last two days?
+What should we do next?
