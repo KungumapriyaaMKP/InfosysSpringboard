@@ -21,3 +21,6 @@ Varshitha here,I have uploaded the ppt see it once guys.
 Aswini- ya the ppt was good Varshitha.
 
 Tq ashwini
+
+
+Guys, this is Kungumapriyaa , I went for an Industrial Visit hope Sir has informed , thats why I could'nt help you , how everything went?
