@@ -31,3 +31,5 @@ What happened last two days?
 What should we do next?
 
 guys on fake detecting job topic  i should select the dataset 
+
+Kungumapriyaa : guys did anyone attended the meet regulary, can you say what we have to do next, remainder that if our project is good we will get a chance to present it in front of Infosys it seems and only 2 teams will be selected, so let's do this full dedication
