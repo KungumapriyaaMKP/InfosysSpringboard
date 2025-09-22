@@ -37,3 +37,5 @@ Kungumapriyaa : guys did anyone attended the meet regulary, can you say what we 
 project is good we will get a chance to present it in front of Infosys it seems and only 2 teams will be selected, so let's do this full dedication
 
 Varshitha here,i taught to take dataset on fake news detection sooo can u tell it is good or what.if anyone has better than this u can tell 
+
+Actually we can define our roles here , as i was not attending the class for the past days can you tell what we have to do , what all tasks and who has to do which task first
