@@ -39,3 +39,5 @@ project is good we will get a chance to present it in front of Infosys it seems 
 Varshitha here,i taught to take dataset on fake news detection sooo can u tell it is good or what.if anyone has better than this u can tell 
 
 Kungumapriyaa :Actually we can define our roles here , as i was not attending the class for the past days can you tell what we have to do , what all tasks and who has to do which task first
+
+varshitha here,guys i have uploaded the dataset see it once whether it is k we can proceed it with soo see it.
