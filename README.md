@@ -33,6 +33,7 @@ What should we do next?
 guys on fake detecting job topic  i should select the dataset 
 
 
-Kungumapriyaa : guys did anyone attended the meet regulary, can you say what we have to do next, remainder that if our project is good we will get a chance to present it in front of Infosys it seems and only 2 teams will be selected, so let's do this full dedication
+Kungumapriyaa : guys did anyone attended the meet regulary, can you say what we have to do next, remainder that if our 
+project is good we will get a chance to present it in front of Infosys it seems and only 2 teams will be selected, so let's do this full dedication
 
-Varshitha here,i taught to take dataset on fake news detecting sooo can u tell it is good or what.if anyone has better than this u can tell 
+Varshitha here,i taught to take dataset on fake news detection sooo can u tell it is good or what.if anyone has better than this u can tell 
