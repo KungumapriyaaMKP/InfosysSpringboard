@@ -40,6 +40,9 @@ Varshitha here,i taught to take dataset on fake news detection sooo can u tell i
 
 Kungumapriyaa :Actually we can define our roles here , as i was not attending the class for the past days can you tell what we have to do , what all tasks and who has to do which task first
 
-varshitha here,guys i have uploaded the dataset see it once whether it is k we can proceed it with soo see it.
+varshitha here,guys i have uploaded the 
+dataset see it once whether it is k we can proceed it with soo see it.
 
 Kungumapriyaa : Can we choose any different data set which is unique , so that we can stand out from others?
+
+Varshitha here,kungumapriya if u know any other dataset can u suggest 
