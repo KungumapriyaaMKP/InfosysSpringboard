@@ -47,5 +47,5 @@ Kungumapriyaa : Can we choose any different data set which is unique , so that w
 
 Varshitha here,kungumapriya if u know any other dataset can u suggest 
 kungumapriyaa : sure, when is our next milestone.
-I think tomorrow but not confirmed 
+I think tomorrow but not confirmed.can u tell now soo that we can proceed with next steps 
 
