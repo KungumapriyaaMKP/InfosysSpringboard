@@ -50,8 +50,9 @@ kungumapriyaa : sure, when is our next milestone.
 I think tomorrow but not confirmed.can u 
 tell now soo that we can proceed with next steps 
 
-Ok we will proceed with the same , what should i do?Which dataset know we can go with if u tell now i will search it
+Ok we will proceed with the sam
+e , what should i do?Which dataset know we can go with if u tell now i will search it
 
 Aswini here, who is doing data preprocessing, do they upload the cleaned dataset???
 
-Varshitha here,i will upload it today 
+Varshitha here,i will upload it by 6pm today.
