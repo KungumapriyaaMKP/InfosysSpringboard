@@ -57,4 +57,4 @@ Aswini here, who is doing data preprocessing, do they upload the cleaned dataset
 
 Varshitha here,i will upload it by 6pm today.
 
-ok, u said that u have completed the preprocessing so that's y i said, ok upload it soon.
+ok, yesterday u said that u have completed the preprocessing so that's y i said, ok upload it soon.
