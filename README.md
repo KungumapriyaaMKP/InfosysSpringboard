@@ -66,3 +66,5 @@ varshitha here, yaa i have completed upto data preprocessing kungumapriya told t
 okay Varshitha 
 
 i have done the data preprocessing u guys can go head with next step 
+
+did u uploaded the cleaned dataset here, in the repository ???
