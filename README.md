@@ -67,4 +67,4 @@ okay Varshitha
 
 i have done the data preprocessing u guys can go head with next step 
 
-did u uploaded the cleaned dataset here, in the repository ???
+varshitha, u didn't upload the cleaned dataset yet ????
