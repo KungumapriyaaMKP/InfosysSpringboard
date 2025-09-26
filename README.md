@@ -70,4 +70,5 @@ i have done the data preprocessing u guys can go head with next step
 varshitha, u didn't upload the cleaned dataset yet ????
 
 Hey, Isha this side. My job was to prepare ppt and give presentation. Please try to complete the project work by saturday, so that I can atleast prepare the ppt on Sunday. I wont be able to do it on monday. 
+
 Who is doing the model training and triples? Sir is asking for a demo presentation today.
