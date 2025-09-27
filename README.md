@@ -72,5 +72,7 @@ i have done the data preprocessing u guys can go head with next step
 varshitha, u didn't upload the cleaned dataset yet ????
 Varshitha here,I have uploaded.
 
+
 Hey, Isha this side. My job was to prepare ppt and give presentation. Please try to complete the project work by saturday, so that I can atleast prepare the ppt on Sunday. I wont be able to do it on monday. 
 
+Varshitha u only uploaded the preprocessing code, upload that cleaned dataset, as i did in the previous milestone, Make it fast, as u making delay.
