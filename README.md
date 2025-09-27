@@ -74,3 +74,5 @@ Varshitha here,I have uploaded.
 Hey, Isha this side. My job was to prepare ppt and give presentation. Please try to complete the project work by saturday, so that I can atleast prepare the ppt on Sunday. I wont be able to do it on monday. 
 
 ok Isha, I'm doing name entity regression & relation extraction. As I'm having exams, couldn't find time, but i will complete by today.
+
+Kungumapriya, U do demo app using streamlit.
