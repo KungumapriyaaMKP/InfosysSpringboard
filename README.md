@@ -75,4 +75,4 @@ Hey, Isha this side. My job was to prepare ppt and give presentation. Please try
 
 ok Isha, I'm doing name entity regression & relation extraction. As I'm having exams, couldn't find time, but i will complete by today.
 
-Kungumapriya, U do demo app using streamlit.
+Aswini Here, I've completed my task & uploaded. Kungumapriya, will do demo app.
