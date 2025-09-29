@@ -80,3 +80,4 @@ Aswini Here, I've completed my task & uploaded. Kungumapriya, will do demo app.
 Kungumapriyaa here, i'll update within an hour
 
 guys i ran the streamlit but the issue is the datset language is different when we show output we will have no proof to say that it is true or false , like it can be proven from the dataset but logically speaking that doesnt make sense , whats your opinion on this , else we will proceed with this , and is the ppt ready else ill do the ppt because im out of station i am unable do the streamlit one due to internet connectivity, hope you guys reply asap
+Isha this side: Guys we had to store the relation extraction as triples and display it in streamlit. Kungapriya, i will do the streamlit part if u can't. Will u do the ppt then?
