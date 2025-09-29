@@ -96,3 +96,10 @@ ive made the ppt , it gives overview of our project , once after the ppt we will
 Guys lets split the ppt slides ? just tell which slide each one is doing
 
 I think the one who made the ppt presents the entire ppt. After that, Sir will ask the others which part of project they did. And then they have to explain the code/project part they did
+
+ok ill explain the whole ppt , u guys show the coding part
+
+we did three things right 
+1. data collection , preprocessing
+2. ner 
+3. then streamlit right or anything else
