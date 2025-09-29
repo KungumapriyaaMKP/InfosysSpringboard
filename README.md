@@ -91,7 +91,8 @@ i will upload the streamlit part till which ive done ,also  ill do the ppt also
 
 Isha this side: I completed the streamlit. It gives the prediction as fake or not. Also stores the triples and gives the knowledge graph. I completed and uploaded the code. Please check once. Kungumapriya, just work on the ppt. Do u want the pictures of the streamlit app to add in the ppt? I can upload that too if u want
 
-ive made the ppt , it gives overview of our project , once after the ppt we will show demo of our ppt is that ok?
+ive made
+the ppt , it gives overview of our project , once after the ppt we will show demo of our ppt is that ok?
 
 Guys lets split the ppt slides ? just tell which slide each one is doing
 
@@ -99,10 +100,14 @@ I think the one who made the ppt presents the entire ppt. After that, Sir will a
 
 ok ill explain the whole ppt , u guys show the coding part
 
+
 we did three things right 
 1. data collection , preprocessing
-2. ner 
-3. then streamlit right or anything else
+2. ner
+   
+4. then streamlit right or anything else
 
 
 who is showing the demo
+
+varshitha here,the ppt is good.
