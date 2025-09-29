@@ -84,3 +84,6 @@ guys i ran the streamlit but the issue is the datset language is different when 
 
 Isha this side: Guys we had to store the relation extraction as triples and display it in streamlit. Kungumapriya, i will do the streamlit part if u can't. Will u do the ppt then?
 Kungumapriya, if possible prepare the ppt and upload it. I will add the streamlit output result pictures in it by evening.
+
+
+i will upload the streamlit part till which ive done ,also  ill do the ppt also
