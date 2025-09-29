@@ -90,3 +90,5 @@ i will upload the streamlit part till which ive done ,also  ill do the ppt also
 
 
 Isha this side: I completed the streamlit. It gives the prediction as fake or not. Also stores the triples and gives the knowledge graph. I completed and uploaded the code. Please check once. Kungumapriya, just work on the ppt. Do u want the pictures of the streamlit app to add in the ppt? I can upload that too if u want
+
+ive made the ppt , it gives overview of our project , once after the ppt we will show demo of our ppt is that ok?
