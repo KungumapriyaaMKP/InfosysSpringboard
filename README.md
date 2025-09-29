@@ -103,3 +103,6 @@ we did three things right
 1. data collection , preprocessing
 2. ner 
 3. then streamlit right or anything else
+
+
+who is showing the demo
