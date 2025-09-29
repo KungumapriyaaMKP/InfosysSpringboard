@@ -94,3 +94,5 @@ Isha this side: I completed the streamlit. It gives the prediction as fake or no
 ive made the ppt , it gives overview of our project , once after the ppt we will show demo of our ppt is that ok?
 
 Guys lets split the ppt slides ? just tell which slide each one is doing
+
+I think the one who made the ppt presents the entire ppt. After that, Sir will ask the others which part of project they did. And then they have to explain the code/project part they did
