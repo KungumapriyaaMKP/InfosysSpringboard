@@ -117,3 +117,5 @@ Thanks varshitha for your time to give a compliment, you guys too did a very big
 
 
 Guys are you all aware of your roles for the next milestone
+
+Isha: My role is to make the ppt and the documentation
