@@ -125,6 +125,9 @@ I have to do the deployment
 
 Isha: Guys, i am about to start making the ppt. I just wanted to be clear about the topics in our milestone before i start because I didnt attend the last 2 lectures and I am not sure now. Can anyone please help me verify? We have to work on community, qa answering and query, and deployment right? So what dataset are we working on? The previous one or something new?
 
+
 Kungumapriyaa : yes isha you're right , i was assigned do the streamlit app, if it;s ok ill upload the dataset
 
 Aswini here, actually I too have the same doubt whether we need to use the old previous dataset or any other new dataset as I am performing Centrality and community. once you guys confirm the dataset i will proceed my work.
+
+varshitha here, i think we should go head with previous what we did same dataset
