@@ -121,3 +121,6 @@ Guys are you all aware of your roles for the next milestone
 Isha: My role is to make the ppt and the documentation
 
 I have to do the deployment 
+
+
+Isha: Guys, i am about to start making the ppt. I just wanted to be clear about the topics in our milestone before i start because I didnt attend the last 2 lectures and I am not sure now. Can anyone please help me verify? We have to work on community, qa answering and query, and deployment right? So what dataset are we working on? The previous one or something new?
