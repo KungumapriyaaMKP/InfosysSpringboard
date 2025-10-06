@@ -131,3 +131,5 @@ Kungumapriyaa : yes isha you're right , i was assigned do the streamlit app, if 
 Aswini here, actually I too have the same doubt whether we need to use the old previous dataset or any other new dataset as I am performing Centrality and community. once you guys confirm the dataset i will proceed my work.
 
 varshitha here, i think we should go head with previous what we did same dataset
+
+Isha: I think the same. I guess we can proceed with the previous milestone work. Because no on was assigned for the data preprocessing work or extracting triples this time. So maybe it means since we already did all of this in previous milestone, we can continue on that to do centrality and community, qa answering etc. 
