@@ -143,4 +143,4 @@ Kungumapriyaa : is the code ready?
 
 Aswini - Hello guys, I have completed and uploaded the centrality & community detection.
 
-varshitha: guys any idea like how to do cross domain linking and question answering.
+varshitha: guys any idea like how to do cross domain linking and question answering.can u guys tell i show build prototype right
