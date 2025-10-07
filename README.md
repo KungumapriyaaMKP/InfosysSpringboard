@@ -145,4 +145,5 @@ Aswini - Hello guys, I have completed and uploaded the centrality & community de
 
 varshitha:ashwini by using your code i should do cross domain linking and question answering right
 
-kungumapriyaa : varshitha once your work is done , then the next is deployment right
+kungumapriyaa : varshitha once your work is done , then the next is deployment right. 
+varshitha: Yes 
