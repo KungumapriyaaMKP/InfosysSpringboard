@@ -161,3 +161,7 @@ kungumapriyaa : guys since i have know idea how the dataset is handled ive uploa
 ISHA: i will start presentation and explain till slide 5. Then aswini, you will take over for community and centrality right? and then varshita can do qa and cross domain. Kungumapriya, you will be showing the output right?
 
 Kungumapriyaa here ,  guyssssssss even though we were in a last minute rush, we made it good, thank you all
+
+
+Isha: Guys was there a tab showing repeatedly during presentation? I m really sorry. Something went wrong with my laptop, probably some virus because of which a tab was apprearing automatically.  I m really sorry if it happened.
+And i m so happy they liked our project!!!!Everyone did good work.
