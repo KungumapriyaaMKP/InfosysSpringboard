@@ -1,0 +1,307 @@
+# streamlit_full_fake_news_app.py
+import streamlit as st
+import pandas as pd
+import spacy
+import networkx as nx
+import joblib
+from datetime import datetime
+import json
+import os
+import uuid
+import requests
+from transformers import pipeline
+import streamlit.components.v1 as components
+
+# ----------------------------- #
+# Config / Paths
+# ----------------------------- #
+VECTORIZER_URL = "https://github.com/KungumapriyaaMKP/InfosysSpringboard/raw/refs/heads/main/tfidf_vectorizer.pkl"
+MODEL_URL = "https://github.com/KungumapriyaaMKP/InfosysSpringboard/raw/refs/heads/main/fake_news_model.pkl"
+MODEL_PATH = "fake_news_model.pkl"
+VECTORIZER_PATH = "tfidf_vectorizer.pkl"
+TRIPLES_JSON = "knowledge_triples.json"
+COMMUNITY_QA_JSON = "community_qa.json"
+SPACY_MODEL = "en_core_web_sm"
+
+# ----------------------------- #
+# Helper functions
+# ----------------------------- #
+def _read_json_file(path, default):
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return default
+    return default
+
+def _write_json_file(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def download_file(url, local_path):
+    if not os.path.exists(local_path):
+        try:
+            response = requests.get(url)
+            with open(local_path, "wb") as f:
+                f.write(response.content)
+            return True
+        except Exception as e:
+            st.error(f"Failed to download {url}: {e}")
+            return False
+    return True
+
+# Initialize JSON storage if missing
+if not os.path.exists(TRIPLES_JSON):
+    _write_json_file(TRIPLES_JSON, [])
+if not os.path.exists(COMMUNITY_QA_JSON):
+    _write_json_file(COMMUNITY_QA_JSON, {"questions": []})
+
+# ----------------------------- #
+# Detector Class
+# ----------------------------- #
+class EnhancedFakeNewsDetector:
+    def __init__(self, spacy_model=SPACY_MODEL):
+        try:
+            self.nlp = spacy.load(spacy_model)
+        except Exception as e:
+            raise RuntimeError(f"spaCy model '{spacy_model}' not found. Run: python -m spacy download {spacy_model}")
+        self.triples_storage = _read_json_file(TRIPLES_JSON, [])
+        self.knowledge_graph = nx.DiGraph()
+        for t in self.triples_storage:
+            self.knowledge_graph.add_edge(t['subject'], t['object'], relation=t.get('relation'), confidence=t.get('confidence', 0.0))
+
+    def extract_enhanced_entities(self, text):
+        doc = self.nlp(text)
+        entities = []
+        for ent in doc.ents:
+            entities.append({
+                'text': ent.text,
+                'label': ent.label_,
+                'start': ent.start_char,
+                'end': ent.end_char,
+                'description': spacy.explain(ent.label_) or ""
+            })
+        return entities
+
+    def extract_enhanced_relations(self, text):
+        doc = self.nlp(text)
+        triples = []
+        for token in doc:
+            if token.pos_ == "VERB" and token.dep_ in ("ROOT", "relcl"):
+                subject, obj = None, None
+                for child in token.lefts:
+                    if child.dep_ in ("nsubj", "nsubjpass", "nsubj:xsubj"):
+                        subject = child.text
+                        break
+                for child in token.rights:
+                    if child.dep_ in ("dobj", "pobj", "obj"):
+                        obj = child.text
+                        break
+                if subject and obj:
+                    triples.append({
+                        'subject': subject,
+                        'relation': token.lemma_,
+                        'object': obj,
+                        'confidence': 0.8,
+                        'source_text': text[:200] + ("..." if len(text) > 200 else "")
+                    })
+        for chunk in doc.noun_chunks:
+            if chunk.root.dep_ == "nsubj":
+                for child in chunk.root.head.children:
+                    if child.dep_ in ("attr", "acomp") and child.pos_ == "NOUN":
+                        triples.append({
+                            'subject': chunk.text,
+                            'relation': 'is_a',
+                            'object': child.text,
+                            'confidence': 0.6,
+                            'source_text': text[:200] + ("..." if len(text) > 200 else "")
+                        })
+        return triples
+
+    def store_triples(self, triples, metadata=None):
+        timestamp = datetime.now().isoformat()
+        existing = _read_json_file(TRIPLES_JSON, [])
+        for triple in triples:
+            triple_entry = {
+                'id': f"triple_{uuid.uuid4().hex}",
+                'subject': triple['subject'],
+                'relation': triple['relation'],
+                'object': triple['object'],
+                'confidence': float(triple.get('confidence', 0.0)),
+                'source_text': triple.get('source_text', ""),
+                'timestamp': timestamp,
+                'metadata': metadata or {}
+            }
+            existing.append(triple_entry)
+            self.knowledge_graph.add_edge(triple_entry['subject'], triple_entry['object'],
+                                          relation=triple_entry['relation'], confidence=triple_entry['confidence'])
+        _write_json_file(TRIPLES_JSON, existing)
+        self.triples_storage = existing
+
+    def export_triples_json(self, filename="knowledge_triples_export.json"):
+        _write_json_file(filename, self.triples_storage)
+        return filename
+
+# ----------------------------- #
+# Community Q&A Helpers
+# ----------------------------- #
+def add_question(title, text, tags=None):
+    db = _read_json_file(COMMUNITY_QA_JSON, {"questions": []})
+    q = {
+        "id": uuid.uuid4().hex,
+        "title": title,
+        "text": text,
+        "tags": tags or [],
+        "created_at": datetime.now().isoformat(),
+        "answers": []
+    }
+    db['questions'].append(q)
+    _write_json_file(COMMUNITY_QA_JSON, db)
+    return q
+
+def add_answer(question_id, answer_text, author="anonymous"):
+    db = _read_json_file(COMMUNITY_QA_JSON, {"questions": []})
+    for q in db['questions']:
+        if q['id'] == question_id:
+            ans = {
+                "id": uuid.uuid4().hex,
+                "text": answer_text,
+                "author": author,
+                "created_at": datetime.now().isoformat(),
+                "votes": 0
+            }
+            q['answers'].append(ans)
+            _write_json_file(COMMUNITY_QA_JSON, db)
+            return ans
+    return None
+
+def vote_answer(question_id, answer_id, delta=1):
+    db = _read_json_file(COMMUNITY_QA_JSON, {"questions": []})
+    for q in db['questions']:
+        if q['id'] == question_id:
+            for a in q['answers']:
+                if a['id'] == answer_id:
+                    a['votes'] = a.get('votes', 0) + int(delta)
+                    _write_json_file(COMMUNITY_QA_JSON, db)
+                    return a
+    return None
+
+# ----------------------------- #
+# Streamlit App
+# ----------------------------- #
+def main():
+    st.set_page_config(page_title="Enhanced Fake News Detection", page_icon="📰", layout="wide")
+    st.title("📰 Enhanced Fake News Detection & Community Q&A")
+    st.markdown("This app combines fake-news classification, NER + relation extraction, a knowledge graph, and a local community Q&A store.")
+
+    # Download model and vectorizer if missing
+    download_file(VECTORIZER_URL, VECTORIZER_PATH)
+    download_file(MODEL_URL, MODEL_PATH)
+
+    # Load detector
+    try:
+        if 'detector' not in st.session_state:
+            st.session_state.detector = EnhancedFakeNewsDetector()
+        detector = st.session_state.detector
+    except RuntimeError as e:
+        st.error(str(e))
+        return
+
+    # Load ML model & vectorizer
+    model_loaded = False
+    try:
+        if 'model' not in st.session_state:
+            st.session_state.model = joblib.load(MODEL_PATH)
+            st.session_state.vectorizer = joblib.load(VECTORIZER_PATH)
+        model_loaded = True
+    except Exception:
+        st.warning("Fake-news model not found. Prediction disabled.")
+        model_loaded = False
+
+    # Load QA pipeline
+    if 'qa_pipeline' not in st.session_state:
+        try:
+            st.session_state.qa_pipeline = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
+        except Exception:
+            st.warning("QA pipeline not available.")
+            st.session_state.qa_pipeline = None
+
+    # Layout: left column for input, right for community
+    left, right = st.columns([2, 1])
+
+    with left:
+        st.header("Analyze a news article")
+        news_text = st.text_area("Enter news text:", height=250)
+        question = st.text_input("Ask a question about this text (optional):")
+
+        if st.button("Analyze"):
+            if news_text.strip():
+                # --- Fake news prediction ---
+                if model_loaded:
+                    X = st.session_state.vectorizer.transform([news_text])
+                    pred = st.session_state.model.predict(X)[0]
+                    conf = st.session_state.model.predict_proba(X)[0].max()
+                    st.subheader("🎯 Prediction")
+                    st.write("**TRUE NEWS ✅**" if pred==1 else "**FAKE NEWS ❌**")
+                    st.metric("Confidence", f"{conf:.2%}")
+
+                # --- NER ---
+                entities = detector.extract_enhanced_entities(news_text)
+                if entities:
+                    st.subheader("🏷️ Named Entity Recognition")
+                    st.dataframe(pd.DataFrame(entities), use_container_width=True)
+
+                # --- Relation Extraction ---
+                triples = detector.extract_enhanced_relations(news_text)
+                if triples:
+                    st.subheader("🔗 Relation Extraction")
+                    detector.store_triples(triples, {"prediction": "true" if pred==1 else "fake"})
+                    st.dataframe(pd.DataFrame(triples), use_container_width=True)
+
+                # --- QA ---
+                if question.strip() and st.session_state.qa_pipeline:
+                    ans = st.session_state.qa_pipeline(question=question, context=news_text)
+                    st.subheader("❓ Question Answering")
+                    st.write(f"**Question:** {question}")
+                    st.write(f"**Answer:** {ans['answer']} (Confidence: {ans['score']:.2%})")
+
+    with right:
+        st.header("💬 Community Q&A")
+        db = _read_json_file(COMMUNITY_QA_JSON, {"questions": []})
+        # Add question
+        with st.expander("Ask a new question"):
+            title = st.text_input("Title", key="q_title")
+            text = st.text_area("Details", key="q_text")
+            if st.button("Post Question", key="post_q"):
+                if title.strip() and text.strip():
+                    add_question(title, text)
+                    st.success("Question added!")
+
+        # Display questions
+        for q in reversed(db.get("questions", [])):
+            st.markdown(f"**{q['title']}**")
+            st.write(q['text'])
+            for a in q.get("answers", []):
+                col1, col2 = st.columns([8,1])
+                with col1:
+                    st.markdown(f"- {a['text']} (Votes: {a.get('votes',0)})")
+                with col2:
+                    if st.button("👍", key=f"up_{a['id']}"):
+                        vote_answer(q['id'], a['id'], 1)
+                        st.experimental_rerun()
+                    if st.button("👎", key=f"down_{a['id']}"):
+                        vote_answer(q['id'], a['id'], -1)
+                        st.experimental_rerun()
+            with st.expander("Answer this question"):
+                answer_text = st.text_area(f"Answer for {q['title']}", key=f"ans_{q['id']}")
+                if st.button("Submit Answer", key=f"sub_{q['id']}"):
+                    if answer_text.strip():
+                        add_answer(q['id'], answer_text)
+                        st.experimental_rerun()
+
+# ----------------------------- #
+# Run app
+# ----------------------------- #
+if __name__ == "__main__":
+    main()
