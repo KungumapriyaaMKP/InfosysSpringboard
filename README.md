@@ -147,6 +147,5 @@ varshitha:ashwini by using your code i should do cross domain linking and questi
 
 
 kungumapriyaa : varshitha once your work is done , then the next is deployment right. 
-varshitha: Yes  kungumapriya for doing cross domain linking we should use algorithm right but for this dataset how should i do if anyone know how to do it can u tell
-
-varshitha here i have uploaded question answering but i don't know how to do cross domain linking can anyone do it i am trying but no result 
+varshitha: Yes  
+i have uploaded.
