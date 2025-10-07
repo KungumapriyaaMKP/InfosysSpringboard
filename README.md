@@ -140,6 +140,7 @@ kungumapriyaa : yes isha that makes sense
 Aswini: ok Isha, I will continue the work from the previous milestone.
 
 Kungumapriyaa : is the code ready?
-varshitha:for whom are u asking.
 
 Aswini - Hello guys, I have completed and uploaded the centrality & community detection.
+
+varshitha: guys any idea like how to do cross domain linking and question answering.
