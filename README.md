@@ -155,3 +155,5 @@ the streamlit is under process, im doing it , what abt the ppt?????
 
 ISHA: guys uploaded the ppt. Its named milestone4.pdf. Go through it please. 
 As sir had mentioned, we have to explain the slides for the parts we did. So go through the ppt, and please mention here the slide number that you will speak on. I will be starting the presentation. Just tell me the slide numbers. And kungumapriya, you have the final output right?
+
+kungumapriyaa : guys since i have know idea how the dataset is handled ive uploaded the code , kindly anyone please explain that
