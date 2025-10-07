@@ -165,3 +165,5 @@ Kungumapriyaa here ,  guyssssssss even though we were in a last minute rush, we 
 
 Isha: Guys was there a tab showing repeatedly during presentation? I m really sorry. Something went wrong with my laptop, probably some virus because of which a tab was apprearing automatically.  I m really sorry if it happened.
 And i m so happy they liked our project!!!!Everyone did good work.
+
+kungumapriyaa : that's not an issue isha , it happens unexpectedly, btwn great work
