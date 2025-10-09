@@ -177,4 +177,6 @@ ISHA: I m making the documentation. Who is making the final ppt?
 
 varshitha:sorry sudarshini as i am having internals i can't able to make it.
 
-Aswini, kungumapriya can u guys do it?
+Aswini, kungumapriya can u guys do it? Aswini: I'm having practical exam Varshitha. If possible we will split the ppt work.
+
+Aswini: What sir said to present on today ? 
