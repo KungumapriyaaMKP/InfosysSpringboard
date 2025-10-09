@@ -185,3 +185,5 @@ Varshitha:sorry aswini,As i am having internals i can't do it because we have 2 
 Isha: Sir asked to make a ppt for entire project like all steps from milestone 3 and 4 and present it. Is someone making it? I m busy with the documentation.
 
 Aswini: we have already done the ppt right ?
+
+Isha: Guys can u drop your full names? i will add in the ppt
