@@ -180,3 +180,4 @@ varshitha:sorry sudarshini as i am having internals i can't able to make it.
 Aswini, kungumapriya can u guys do it? Aswini: I'm having practical exam Varshitha. If possible we will split the ppt work.
 
 Aswini: What sir said to present on today ? 
+Varshitha:sorry aswini,As i am having internals i can't do it because we have 2 subjects per day it is difficult to balance all this.
