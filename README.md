@@ -183,3 +183,5 @@ Aswini: What sir said to present on today ?
 Varshitha:sorry aswini,As i am having internals i can't do it because we have 2 subjects per day it is difficult to balance all this.
 
 Isha: Sir asked to make a ppt for entire project like all steps from milestone 3 and 4 and present it. Is someone making it? I m busy with the documentation.
+
+Aswini: we have already done the ppt right ?
