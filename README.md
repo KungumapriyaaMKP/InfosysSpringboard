@@ -202,3 +202,5 @@ Hello guys, can anyone tell what happened in yesterday class,sir said to present
 yes today we should present 
 
 Anyone completed the ppt ? 
+
+Isha: did anyone of u prepare the ppt? We will be the first group presenting today
