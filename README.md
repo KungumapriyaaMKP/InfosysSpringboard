@@ -208,4 +208,3 @@ Isha: did anyone of u prepare the ppt? We will be the first group presenting tod
 
 varshitha:i told right i have internals soo I didn't did isha upto tuesday i have internals.
 now what we should do.
-Guys what should we need to do now ? 
