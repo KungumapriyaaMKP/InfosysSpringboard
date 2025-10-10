@@ -195,4 +195,6 @@ Aswini: Guys I'm leave the meeting as I am sick.
 
 Isha: Its ok Aswini. Take rest. I dont see kungumapriya in the meeting. And she has the output. Varshita, what should we do? Its just the 2 of us
 
-Isha can  u tell sir 2 members are absent soo we will do it tomorrow and also tell to sir that kungumapriya has a output 
+Isha can  u tell sir 2 members are absent soo we will do it tomorrow and also tell to sir that kungumapriya has a output
+
+Aswini: what happen yesterday , what did sir told? 
