@@ -198,3 +198,5 @@ Isha: Its ok Aswini. Take rest. I dont see kungumapriya in the meeting. And she 
 Isha can  u tell sir 2 members are absent soo we will do it tomorrow and also tell to sir that kungumapriya has a output
 
 Hello guys, can anyone tell what happened in yesterday class,sir said to present on tomorrow ? 
+
+yes tomorrow we should present 
