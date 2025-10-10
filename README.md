@@ -206,4 +206,5 @@ Anyone completed the ppt ?
 
 Isha: did anyone of u prepare the ppt? We will be the first group presenting today
 
-varshitha:i told right i have internals soo I didn't did isha upto tuessday i have internals.
+varshitha:i told right i have internals soo I didn't did isha upto tuesday i have internals.
+now what we should do.
