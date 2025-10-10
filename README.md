@@ -199,8 +199,11 @@ Isha can  u tell sir 2 members are absent soo we will do it tomorrow and also te
 
 Hello guys, can anyone tell what happened in yesterday class,sir said to present on tomorrow ? 
 
+
 yes today we should present 
 
 Anyone completed the ppt ? 
 
 Isha: did anyone of u prepare the ppt? We will be the first group presenting today
+
+varshitha:i told right i have internals soo I didn't did isha upto tuessday i have internals.
