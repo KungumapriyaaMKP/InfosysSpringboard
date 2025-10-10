@@ -200,3 +200,5 @@ Isha can  u tell sir 2 members are absent soo we will do it tomorrow and also te
 Hello guys, can anyone tell what happened in yesterday class,sir said to present on tomorrow ? 
 
 yes today we should present 
+
+Anyone completed the ppt ? 
