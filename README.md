@@ -212,3 +212,6 @@ now what we should do.
 kungumapriyaa : guys i couldnt join for the past two days as i had sessions in my college in the evening , if i had a notification i would have definitely heped you guys , so to avoid confusion in the later days , kindly message me in linkedin :https://www.linkedin.com/in/kungumapriyaa-m-197027328/
 
 Aswini: Guys everyone done great job.
+
+
+Kungumapriyaa : Guys do we have to present today? what did sir told yesterday I coudn't attend the meet as I was out of station
