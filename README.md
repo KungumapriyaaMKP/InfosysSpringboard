@@ -215,3 +215,5 @@ Aswini: Guys everyone done great job.
 
 
 Kungumapriyaa : Guys do we have to present today? what did sir told yesterday I coudn't attend the meet as I was out of station
+
+Sir said 2 teams to present Group 1 & 5. 
