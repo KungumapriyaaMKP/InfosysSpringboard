@@ -224,3 +224,5 @@ Kungumapriyaa : Our final milestone is on wednesday from 3.30 pm to 6.30 pm
 varshitha here, guys as i am having internals i am not attending today's class so if there is any important information plz message it.
 
 Kungumapriya, sir said to present all the teams on Wednesday? 
+
+I think 1 and 3 
