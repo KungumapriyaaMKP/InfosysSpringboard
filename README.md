@@ -233,8 +233,9 @@ kungumapriyaa : I have to explain the streamlit app alone right
 
 varshitha: i will explain on cross domain linking and question answering 
 
-Kungumapriyaa : shall i show the ppt , what should we do with the documentation , should we explain everything
 
 varshitha here, guys what i should present tell me
 
 Aswini: Guys on Sunday sir said to present Group 1 & 5 only, any changes in that ? Also I'm having internal exams this week.
+
+kugumapriyaa : we will present the ppt like how we will be doing earlier itself , varshitha can u show the ppt and documentation , ill show the deployment part, i think so all clear right??
