@@ -1,4 +1,4 @@
-Hey All! This is Kungumapriyaa , I've uploaded the dataset go through it once, I have chosen this dataset because this contains combination of various type of data, if this is ok just tell me we'll proceed with this, kindly respond asap
+yHey All! This is Kungumapriyaa , I've uploaded the dataset go through it once, I have chosen this dataset because this contains combination of various type of data, if this is ok just tell me we'll proceed with this, kindly respond asap
 
 hello guys! I'm Aswini as I have cleaned the dataset and push it. u can do the train test split 
 hi guys! i should prepare the ppt.soo please share the code
@@ -236,3 +236,5 @@ varshitha: i will explain on cross domain linking and question answering
 Kungumapriyaa : shall i show the ppt , what should we do with the documentation , should we explain everything
 
 varshitha here, guys what i should present tell me
+
+Guys on Sunday sir said to present Group 1 & 5 only, any changes in that ? 
