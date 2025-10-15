@@ -228,3 +228,5 @@ Kungumapriya, sir said to present all the teams on Wednesday?
 I think 1 and 3 
 
 Isha: Guys on wednesday, if we have to present, i will be joining the meeting from my phone as my laptop wont be with me at that time. I can do explaination but i wont be able to present the ppt. So one of you please download the ppt and document from the github repo and present it that day. I have uploaded it as Finalppt and documentation
+
+kungumapriyaa : I have to explain the streamlit app alone right
