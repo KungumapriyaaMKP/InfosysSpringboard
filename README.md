@@ -245,4 +245,5 @@ varshitha: Actually i am in college didn't brought laptop.i am attending through
 kungumapriyaa : ok ill present, what should we do with the documentation
 aswini can u present documentation. 
 
-kungumapriyya that's it only we should explain deployment part.
+varshitha here,kungumapriyya that's it only we should explain deployment part.
+can we leave the meeting kungumapriyaa
