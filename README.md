@@ -237,4 +237,4 @@ Kungumapriyaa : shall i show the ppt , what should we do with the documentation 
 
 varshitha here, guys what i should present tell me
 
-Guys on Sunday sir said to present Group 1 & 5 only, any changes in that ? 
+Aswini: Guys on Sunday sir said to present Group 1 & 5 only, any changes in that ? Also I'm having internal exams this week.
