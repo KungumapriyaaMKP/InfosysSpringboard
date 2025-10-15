@@ -239,3 +239,5 @@ varshitha here, guys what i should present tell me
 Aswini: Guys on Sunday sir said to present Group 1 & 5 only, any changes in that ? Also I'm having internal exams this week.
 
 kugumapriyaa : we will present the ppt like how we will be doing earlier itself , varshitha can u show the ppt and documentation , ill show the deployment part, i think so all clear right?? join by 3.30 pm soon
+
+varshitha: Actually i am in college didn't brought laptop.
