@@ -243,3 +243,7 @@ kugumapriyaa : we will present the ppt like how we will be doing earlier itself 
 varshitha: Actually i am in college didn't brought laptop.i am attending through phone.
 
 kungumapriyaa : ok ill present, what should we do with the documentation
+
+i think they are telling to split the work 2 members we do ppt presentation and 2 members documentation 
+i will do the ppt presentation guys.
+documentation who is going to present 
